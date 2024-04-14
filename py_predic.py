@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the trained model for disease detection
-disease_model = load_model('c1plant_disease_model.weights(1).h5')
+disease_model = load_model('c1plant_disease_model.weights.h5')
 
 # Define disease labels
 disease_labels = {
